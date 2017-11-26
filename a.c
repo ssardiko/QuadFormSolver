@@ -8,9 +8,9 @@ void main() {
 	scanf("%f %f %f",&a, &b, &c);
 
 	d = -b + sqrt(b*b - 4*a*c);
-	d = d/2*a;
+	d = d/(2*a);
 	e = -b - sqrt(b*b - 4*a*c);
-	e = e/2*a;
+	e = e/(2*a);
 
 	printf("%f %f\n",d,e);
 	return;
